@@ -1,0 +1,18 @@
+<div data-page="detailsPage" class="page cached" ng-controller="DetailsPageController">
+  <!-- Page content-->
+  <div class="page-content">
+    <div class="content-block-title">{{movie.stars}} {{movie.ratings.critics_rating}}</div>
+
+    <div class="card ft-detail-header-img">
+      <div style="background-image:url({{movie.posters.detailed}})" valign="bottom" class="card-header color-white no-border">{{movie.title}}</div>
+      <div class="card-content">
+        <div class="card-content-inner">
+          <p class="color-gray">
+            Release on {{movie.date}}
+          </p>
+          <p>{{movie.synopsis}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

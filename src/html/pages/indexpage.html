@@ -1,0 +1,36 @@
+<div data-page="index" class="page" ng-controller="IndexPageController">
+  <!-- Page content-->
+  <div class="page-content">
+    
+    <div class="content-block">
+      <p class="buttons-row">
+        <a href="#" ng-click="events.onUpcomingClicked()" class="button {{tab.upcoming.active}}">Upcoming movies</a>
+        <a href="#" ng-click="events.onTheatersClicked()" class="button {{tab.theater.active}}">In theaters now</a>
+      </p>
+    </div>
+    
+    <div class="content-block-title">{{listtype}}</div>
+    
+    <div id="ft-movielist" class="list-block media-list">
+      
+      <ul>
+        <li class="ft-movielist-item" ng-repeat="movie in movies">
+          <a href="#detailsPage" ng-click="events.onListItemClicked(movie)" class="item-link">
+            <div class="item-content">
+              <div class="item-media">
+                <img class="ft-movielist-item-img" src="{{movie.posters.thumbnail}}">
+              </div>
+              <div class="item-inner">
+                <div class="item-title-row">
+                  <div class="item-title">{{movie.title}}</div>
+                </div>
+                <div class="item-subtitle">{{movie.stars}}</div>
+                <div class="item-text">{{movie.synopsis}}</div>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

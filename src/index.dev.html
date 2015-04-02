@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html ng-app="ft">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Fresh Tomatoes | Framework7 with AngularJS demo</title>
+    <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="lib/framework7/css/framework7.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    
+    @@include('html/header.html')
+    
+    <!-- Views-->
+    <div class="views">
+      
+      <!-- Your main view, should have "view-main" class-->
+      <div class="view view-main">
+        
+        @@include('html/navi.html')
+        
+        <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-through toolbar-through">
+          
+          <!-- - [Page 1] ---------------------------------------- -->
+          @@include('html/pages/indexpage.html')
+          
+          <!-- - [Page 2] ---------------------------------------- -->
+          @@include('html/pages/detailspage.html')
+          
+        </div>
+        
+        <!-- Bottom Toolbar-->
+        <!--
+        <div class="toolbar">
+        </div>
+        -->
+        
+      </div>
+    </div>
+    
+    @@include('html/scripts.html')
+    
+  </body>
+</html>
