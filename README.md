@@ -8,4 +8,4 @@ Based on top of this template: https://github.com/valnub/Framework7-Typescript-T
 
 Check out working demo here: http://www.timo-ernst.net/misc/f7angulardemo
 
-Made with <3 by www.timo-ernst.net
+Detailed explanation of the source code: http://www.timo-ernst.net/2015/04/a-movie-list-demo-app-built-with-framework7-and-angular/
