@@ -9,7 +9,9 @@ var ft;
         }
         Init.prototype.configApp = function () {
             // Initialize app
-            this.fw7App = new Framework7();
+            this.fw7App = new Framework7({
+                animateNavBackIcon: true
+            });
             this.fw7ViewOptions = {
                 dynamicNavbar: true,
                 domCache: true
