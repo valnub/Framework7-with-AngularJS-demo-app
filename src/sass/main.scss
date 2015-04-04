@@ -9,3 +9,22 @@
   background-size: cover;
   background-position: center;
 }
+.navbar {
+    background: #3a9425;
+}
+.buttons-row {
+    max-width:420px;
+    margin-left: auto;
+    margin-right: auto;
+    .button {
+        border-color: #3a9425;
+        color:#3a9425;
+    }
+    .button.active-state {
+        background-color: rgba(44, 132, 23, 0.2);
+    }
+    .button.active {
+        color:#fff;
+        background-color: #3a9425
+    }
+}
