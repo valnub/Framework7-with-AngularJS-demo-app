@@ -4,7 +4,8 @@ A demo application built on top of Framework7, AngularJS and TypeScript. Feel fr
 
 ![Smartphone portrait mode](http://www.timo-ernst.net/wp-content/uploads/2015/04/Foto-02.04.15-01-44-28-169x300.png)
 
-Based on top of this template: https://github.com/valnub/Framework7-Typescript-Template
+This demo is based on top of this template: https://github.com/valnub/Framework7-Typescript-Template
+For some people this is a little complicated because it relies on npm and grunt. If you want an alternative with just pure html, css and javascript without a build process involved you can try this alternative: https://github.com/valnub/Framework7-Pure-Angular-Template
 
 Check out working demo here: http://www.timo-ernst.net/misc/f7angulardemo
 
