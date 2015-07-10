@@ -23,4 +23,4 @@ This app is based on top of this template: https://github.com/valnub/Framework7-
 
 ### Alternative, easier template
 
-For some people this template is a little to complicated because it relies on npm and grunt. If you want an alternative with just pure html, css and javascript without a build process involved you can try this alternative: https://github.com/valnub/Framework7-Pure-Angular-Template
+For some people the template mentioned above is a little to complicated because it relies on npm and grunt. If you want an alternative with just pure html, css and javascript without a build process involved you can try this alternative: https://github.com/valnub/Framework7-Pure-Angular-Template
