@@ -15,6 +15,16 @@ Check out working demo here: http://www.timo-ernst.net/misc/f7angulardemo
 5. Then call `grunt compile`
 6. Copy the content of `/build` to htdocs of your webserver
 
+## How to do changes
+
+Go to `src` folder and edit the following files:
+
+- HTML: `.dev.html` files
+- Styles: `.sass` files
+- Scripts: `.ts` files (**Type**script, not JavaScript!)
+
+Then call `grunt compile` again and check the result in `/build` folder.
+
 ### Code explanation:
 Detailed explanation of the source code: http://www.timo-ernst.net/2015/04/a-movie-list-demo-app-built-with-framework7-and-angular/
 
