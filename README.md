@@ -13,7 +13,7 @@ Check out working demo here: http://www.timo-ernst.net/misc/f7angulardemo
 3. cd to project folder
 4. From cmd run `npm install`
 5. Then call `grunt compile`
-6. Copy the contentes of `/build` to htdocs of your webserver
+6. Copy the content of `/build` to htdocs of your webserver
 
 ### Code explanation:
 Detailed explanation of the source code: http://www.timo-ernst.net/2015/04/a-movie-list-demo-app-built-with-framework7-and-angular/
