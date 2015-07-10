@@ -7,7 +7,7 @@ Check out working demo here: http://www.timo-ernst.net/misc/f7angulardemo
 
 ![Smartphone portrait mode](http://www.timo-ernst.net/wp-content/uploads/2015/04/Foto-02.04.15-01-44-28-169x300.png)
 
-## How to use
+## How to build
 1. Install npm (http://www.npmjs.com)
 2. Install Grunt (http://www.gruntjs.com)
 3. cd to project folder
