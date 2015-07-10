@@ -25,7 +25,7 @@ Go to `src` folder and edit the following files:
 
 Then call `grunt compile` again and check the result in `/build` folder.
 
-### Code explanation:
+### Source code explanation:
 Detailed explanation of the source code: http://www.timo-ernst.net/2015/04/a-movie-list-demo-app-built-with-framework7-and-angular/
 
 ## Template
