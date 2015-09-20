@@ -26,7 +26,7 @@ Go to `src` folder and edit the following files:
 Then call `grunt compile` again and check the result in `/build` folder.
 
 ### Source code explanation:
-Detailed explanation of the source code: http://www.timo-ernst.net/2015/04/a-movie-list-demo-app-built-with-framework7-and-angular/
+Detailed explanation of the source code: http://timo-ernst.net/blog/2015/04/02/experiment-an-iphone-app-built-with-framework7-typescript-and-angularjs/
 
 ## Template
 
