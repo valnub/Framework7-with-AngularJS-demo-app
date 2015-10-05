@@ -2,6 +2,12 @@
 
 A demo application built on top of **Framework7**, **AngularJS**, **SASS** and **TypeScript**. Feel free to download, modify, fork or comment. This app will list upcoming and current movies from theaters and give you detailed information
 
+--------------------
+## Important! Read this first!
+This example is not best practice on how to use Framework7, it’s more of an experiment to see how it works with Angular and TypeScript. Framework7 has an own templating engine called Template7, so Angular is not mandatory (but it's also **not** harmful!). The important part is that F7 is designed to work with JavaScript, rather than TypeScript.
+So, if you’re new to Framework7, do not assume that this example is the way you should create F7 apps! It was an experiment to see what happens if you combine these technologies. After all I can say that I wouldn’t use TypeScript with F7 again, just stick to plain old JavaScript. If you know how to use Angular, then you should be safe using it. If you don’t know Angular, then use Template7.
+--------------------
+
 ## Demo
 Check out working demo here: http://www.timo-ernst.net/misc/f7angulardemo
 
