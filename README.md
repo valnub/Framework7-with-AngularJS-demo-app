@@ -18,6 +18,11 @@ Check out working demo here: http://www.timo-ernst.net/misc/f7angulardemo
 5. Then call `grunt compile`
 6. Copy the content of `/build` to htdocs of your webserver
 
+## How to view
+(after doing build)
+1. `npm install -g gulp`
+2. `gulp test`
+
 ## How to do changes
 
 Go to `src` folder and edit the following files:
