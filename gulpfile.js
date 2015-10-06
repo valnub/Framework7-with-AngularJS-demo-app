@@ -7,7 +7,7 @@ gulp.task('test', function() {
 		.use('/', express.static('./'))
 		.listen(6969);
 
-	#todo: Windows? Should work on most linux distros.
+	//todo: Windows? Should work on most linux distros.
 	exec('open http://localhost:6969/build/', function (stdOut, stdErr) {
 
 	});
