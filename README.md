@@ -5,6 +5,8 @@ A demo application built on top of **Framework7**, **AngularJS**, **SASS** and *
 ## Important! Read this first!
 This example **is not best practice** on how to use Framework7, it’s more of an **experiment** to see how it works with Angular and TypeScript. Framework7 has an own templating engine called Template7, so Angular is not mandatory (but it's also **not** harmful!). The important part is that F7 is designed to work with JavaScript, rather than TypeScript. So, if you’re new to Framework7, do not assume that this example is the way you should create F7 apps! It was an experiment to see what happens if you combine these technologies. After all I can say that I wouldn’t use TypeScript with F7 again, just stick to plain old JavaScript. If you know how to use Angular, then you should be safe using it. If you don’t know Angular, then use Template7.
 
+If you want to instead learn how to use Framework7 with AngularJS the proper way, check out my video screencast: http://www.timo-ernst.net/blog/2015/11/05/video-screencast-how-to-use-framework7-with-angularjs/
+
 If you feel adventurous enough to dive into this experiement read on :-)
 
 ## Demo
@@ -39,4 +41,4 @@ This app is based on top of this template: https://github.com/valnub/Framework7-
 
 ### Alternative, easier template
 
-For some people the template mentioned above is a little to complicated because it relies on npm and grunt. If you want an alternative with just pure html, css and javascript without a build process involved you can try this alternative: https://github.com/valnub/Framework7-Pure-Angular-Template
+For some people the template mentioned above is a little to complicated because it relies on npm and grunt. If you want an alternative with just pure html, css and javascript without a build process involved you can try this alternative: https://github.com/valnub/Framework7-Pure-Angular-Template or watch my video screencast tutorial: http://www.timo-ernst.net/blog/2015/11/05/video-screencast-how-to-use-framework7-with-angularjs/
