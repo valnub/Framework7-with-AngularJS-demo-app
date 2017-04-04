@@ -1,11 +1,11 @@
-# Framework7 with AngularJS demo app
+# Framework7 with Angular 1.x and TypeScript demo app
 
 A demo application built on top of **Framework7**, **AngularJS**, **SASS** and **TypeScript**. Feel free to download, modify, fork or comment. This app will list upcoming and current movies from theaters and give you detailed information
 
 ## Important! Read this first!
-This example **is not best practice** on how to use Framework7, it’s more of an **experiment** to see how it works with Angular and TypeScript. Framework7 has an own templating engine called Template7, so Angular is not mandatory (but it's also **not** harmful!). The important part is that F7 is designed to work with JavaScript, rather than TypeScript. So, if you’re new to Framework7, do not assume that this example is the way you should create F7 apps! It was an experiment to see what happens if you combine these technologies. After all I can say that I wouldn’t use TypeScript with F7 again, just stick to plain old JavaScript. If you know how to use Angular, then you should be safe using it. If you don’t know Angular, then use Template7.
+This example **is not best practice** on how to use Framework7, it’s more of an **experiment** to see how it works with Angular and TypeScript. Framework7 has an own templating engine called Template7 (and also now supports [Vue](http://framework7.io/vue) and [React](http://framework7.io/react)), so Angular is not mandatory. The important part is that F7 is designed to work with JavaScript, rather than TypeScript. So, if you’re new to Framework7, do not assume that this example is the way you should create F7 apps! It was an experiment to see what happens if you combine these technologies.
 
-If you want to instead learn how to use Framework7 with AngularJS the proper way, check out my video screencast: http://www.timo-ernst.net/blog/2015/11/05/video-screencast-how-to-use-framework7-with-angularjs/
+Also, please keep in mind that this is an old demo based on Angular 1.x. If you like Angular, then I rather recommend to use Ionic since it fully supports Angular2. If you want to use Framework7, then use [Framework7-Vue](http://framework7.io/vue) or [Framework7-React](http://framework7.io/react).
 
 If you feel adventurous enough to dive into this experiement read on :-)
 
