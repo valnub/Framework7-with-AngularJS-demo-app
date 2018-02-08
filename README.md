@@ -1,4 +1,10 @@
-# Framework7 with Angular 1.x and TypeScript demo app
+# Deprecated
+
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
+-------------------------------
+
+## Framework7 with Angular 1.x and TypeScript demo app
 
 A demo application built on top of **Framework7**, **AngularJS**, **SASS** and **TypeScript**. Feel free to download, modify, fork or comment. This app will list upcoming and current movies from theaters and give you detailed information
 
